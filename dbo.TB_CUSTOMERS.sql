@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[TB_CUSTOMERS]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Name] VARCHAR(50),
+    [Id_Document] INT NOT NULL,  
+    [Id_State] INT NOT NULL,
+    [Id_Phones]INT, 
+	FOREIGN KEY (Id_Document) REFERENCES TB_DOCUMENTS(Id),
+	FOREIGN KEY (Id_State) REFERENCES TB_STATE(Id),
+	FOREIGN KEY (Id_Phones) REFERENCES TB_PHONES(Id)
+);
+

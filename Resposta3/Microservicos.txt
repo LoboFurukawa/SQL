@@ -1,0 +1,3 @@
+É uma coleção de pequenos serviços autônomos. 
+Cada serviço é independente e deve implementar uma única funcionalidade comercial em um contexto limitado. 
+Um contexto limitado é uma divisão natural em uma empresa e fornece um limite explícito dentro do qual um modelo de domínio existe

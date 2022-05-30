@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[TB_PHONES]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Number] VARCHAR(50),
+)
